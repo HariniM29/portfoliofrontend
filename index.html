@@ -394,7 +394,8 @@ opacity: 1;
 position: relative;
 overflow: hidden;
 border-radius: var(--radius-12);
-box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+box-shadow: 2px 4px 6px #3a5658;
+background-color: #bfe5e77d;
 }
 
 .project-card::after {
@@ -848,7 +849,12 @@ margin-inline: auto;
 
 
 @media screen and (max-width: 768px) {
-   
+   .section_title,
+.section_subtitle {
+  text-align: center;
+    margin-left:334px;
+}
+
   .qualification_tabs {
     flex-direction: row;
     align-items: center;
@@ -1201,7 +1207,9 @@ textarea.input-field {
 .section_title,
 .section_subtitle {
   text-align: center;
-    margin-left:353px;
+
+
+    
 }
 
 .container {
