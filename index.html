@@ -773,7 +773,7 @@ margin-inline: auto;
  .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
-     padding-left:495px;
+    
 
  }
  .home-content h3:nth-of-type(2){
@@ -787,7 +787,7 @@ margin-inline: auto;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
-     padding-left:501px;
+     
  }
  .social-media a {
     display: inline-flex;
@@ -810,6 +810,18 @@ margin-inline: auto;
  }
 
  @media only screen and (max-width: 768px) {
+     .home-content h3{
+         font-size:3.2rem;
+         font-weight: 700;
+         padding-left:514px;
+     }
+      .home-content h1{
+         font-size:5.6rem;
+         font-weight: 700;
+         padding-left:515px;
+          line-height:1.3;
+          
+     }
     .home {
         flex-direction: column; /* Stack items vertically for smaller screens */
         text-align: center; /* Center text for smaller screens */
@@ -817,10 +829,10 @@ margin-inline: auto;
     }
 
     .home-img img {
-        width: 115%; /* Make the image take up the full width */
+        width: 161%; /* Make the image take up the full width */
         max-width: none; /* Remove max-width for the image */
         flex-direction: column;
-        margin-left:262px;
+        margin-left:155px;
     }
 
     .social-media a {
@@ -828,7 +840,7 @@ margin-inline: auto;
     }
     .social-media{
       display:flex;
-        padding-left:498px;
+        padding-left:513px;
     }
 }
 
@@ -1133,6 +1145,7 @@ textarea.input-field {
   .qualification_tabs {
     flex-direction: row;
     align-items: center;
+      margin-right:-209px;
   }
 
   .qualification_education-button,
@@ -1148,6 +1161,7 @@ textarea.input-field {
   .qualification_data {
     grid-template-columns: 1fr;
     text-align: center;
+      margin-left:170px;
   }
 
 /*   .qualification_title,
@@ -1187,6 +1201,7 @@ textarea.input-field {
 .section_title,
 .section_subtitle {
   text-align: center;
+    margin-left:353px;
 }
 
 .container {
